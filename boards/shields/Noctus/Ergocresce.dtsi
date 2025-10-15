@@ -71,7 +71,6 @@
             , <&gpio0 19  (GPIO_ACTIVE_HIGH)>
             , <&gpio1 1   (GPIO_ACTIVE_HIGH)>
             ;
-};
     };
 
     default_transform: keymap_transform_0 {
