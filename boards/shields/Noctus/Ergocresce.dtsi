@@ -7,7 +7,8 @@
 
 / {
     chosen {
-        zmk,physical-layout = &default_layout;
+    zmk,physical-layout = &default_layout;
+    zmk,matrix_transform = &default_transform;
     };
 
 //trackpad settings  
@@ -75,6 +76,7 @@
             RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)                                                 RC(3,7) RC(3,8) RC(3,9) RC(3,10) RC(3,11) RC(3,12)
                                                            RC(4,0) RC(4,1) RC(4,2)   RC(4,7)  RC(4,8)  RC(4,9)
                                                            RC(4,3) RC(4,4) RC(4,5)   RC(4,10) RC(4,11) RC(4,12)
+        >;
     };
 
     default_layout: default_layout {
