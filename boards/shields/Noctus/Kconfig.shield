@@ -1,0 +1,5 @@
+config SHIELD_NERGOCRESCE_R
+    def_bool $(shields_list_contains,Ergocresce_R)
+
+config SHIELD_ERGOCRESCE_L
+    def_bool $(shields_list_contains,Ergocresce_L)
