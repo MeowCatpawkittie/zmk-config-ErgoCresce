@@ -84,7 +84,7 @@
 
         kscan = <&kscan0>; 
         transform = <&default_transform>;
-
+        
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0    0       0     0     0>
             , <&key_physical_attrs 100 100  100    0       0     0     0>
@@ -137,15 +137,16 @@
             , <&key_physical_attrs 100 100  600  400       0     0     0>
             , <&key_physical_attrs 100 100  700  400       0     0     0>
             , <&key_physical_attrs 100 100  800  400       0     0     0>
-            , <&key_physical_attrs 100 100  975  400       0     0     0>
-            , <&key_physical_attrs 100 100 1075  400       0     0     0>
-            , <&key_physical_attrs 100 100 1175  400       0     0     0>
             , <&key_physical_attrs 100 100  600  500       0     0     0>
             , <&key_physical_attrs 100 100  700  500       0     0     0>
             , <&key_physical_attrs 100 100  800  500       0     0     0>
+            , <&key_physical_attrs 100 100  975  400       0     0     0>
+            , <&key_physical_attrs 100 100 1075  400       0     0     0>
+            , <&key_physical_attrs 100 100 1175  400       0     0     0>
             , <&key_physical_attrs 100 100  975  500       0     0     0>
             , <&key_physical_attrs 100 100 1075  500       0     0     0>
             , <&key_physical_attrs 100 100 1175  500       0     0     0>
             ;
     };
 };
+
