@@ -1,0 +1,9 @@
+#include "../../../boards/shields/Ergocresce/Ergocresce.dtsi"
+
+/ {
+    chosen {
+        zmk,physical_layout = &default_layout;
+        zmk,matrix_transform = &default_transform;
+        zmk,kscan = &kscan0;
+    };
+};
