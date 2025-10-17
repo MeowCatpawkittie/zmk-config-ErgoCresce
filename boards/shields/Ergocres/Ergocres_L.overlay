@@ -1,4 +1,4 @@
-#include "Ergocresce.dtsi"
+#include "Ergocres.dtsi"
 #include <dt-bindings/zmk/input_transform.h>
 #include <input/processors.dtsi>
 
