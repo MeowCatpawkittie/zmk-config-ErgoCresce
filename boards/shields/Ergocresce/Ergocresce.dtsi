@@ -10,16 +10,6 @@
         zmk,matrix_transform = &default_transform;
     };
 
-    layouts {
-        compatible = "zmk,layouts";
-        default_layout: layout {
-            compatible = "zmk,layout";
-            description = "Ergocresce default layout";
-            kscan = <&kscan0>;
-            transform = <&default_transform>;
-        };
-    };
-
 //trackpad settings  
     split_inputs {
       #address-cells = <1>;
