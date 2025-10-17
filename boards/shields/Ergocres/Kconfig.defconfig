@@ -1,7 +1,7 @@
-if SHIELD_ERGOCRES_R
+if SHIELD_NOCTUS_R
 
 config ZMK_KEYBOARD_NAME
-    default "Ergocres_R"
+    default "Noctus_R"
 
 config ZMK_SPLIT
     default y
@@ -11,10 +11,10 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if SHIELD_ERGOCRES_L
+if SHIELD_NOCTUS_L
 
 config ZMK_KEYBOARD_NAME
-    default "Ergocres_L"
+    default "Noctus_L"
 
 config ZMK_SPLIT
     default y
