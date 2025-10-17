@@ -1,4 +1,4 @@
-config SHIELD_NERGOCRESCE_R
+config SHIELD_ERGOCRESCE_R
     def_bool $(shields_list_contains,Ergocresce_R)
 
 config SHIELD_ERGOCRESCE_L
